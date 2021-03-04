@@ -122,12 +122,7 @@ var/global/current_state = GAME_STATE_WORLD_INIT
 		if("random","secret") src.mode = config.pick_random_mode()
 		if("action") src.mode = config.pick_mode(pick("nuclear","wizard","blob"))
 		if("intrigue") src.mode = config.pick_mode(pick("mixed_rp", "traitor","changeling","vampire","conspiracy","spy_theft", prob(50); "extended"))
-		if("pod_wars") src.mode = config.pick_mode("pod_wars")
 		else src.mode = config.pick_mode(master_mode)
-
-#ifdef MAP_OVERRIDE_POD_WARS
-	src.mode = config.pick_mode("pod_wars")
-#endif
 
 	if(hide_mode)
 		#ifdef RP_MODE
@@ -603,7 +598,7 @@ var/global/current_state = GAME_STATE_WORLD_INIT
 	//logTheThing("debug", null, null, "Zamujasa: [world.timeofday] processing spacebux updates")
 
 	var/escape_possible = 1
-	if (istype(mode, /datum/game_mode/blob) || istype(mode, /datum/game_mode/nuclear) || istype(mode, /datum/game_mode/revolution) || istype(mode, /datum/game_mode/pod_wars))
+	if (istype(mode, /datum/game_mode/blob) || istype(mode, /datum/game_mode/nuclear) || istype(mode, /datum/game_mode/revolution))
 		escape_possible = 0
 
 	var/time = world.time

@@ -989,10 +989,6 @@
 			playsound(src, "sound/impact_sounds/Generic_Stab_1.ogg", 50, 1)
 			T.build(src)
 
-#ifdef MAP_OVERRIDE_POD_WARS
-/turf/proc/edge_step(var/atom/movable/A, var/newx, var/newy)
-	return
-#else
 /turf/proc/edge_step(var/atom/movable/A, var/newx, var/newy)
 	var/zlevel = 3 //((A.z=3)?5:3)//(3,4)
 
@@ -1023,7 +1019,7 @@
 	SPAWN_DBG(0)
 		if ((A?.loc))
 			A.loc.Entered(A)
-#endif
+
 //Vr turf is a jerk and pretends to be broken.
 /turf/unsimulated/bombvr/ex_act(severity)
 	switch(severity)

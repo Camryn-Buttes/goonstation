@@ -1135,6 +1135,8 @@
 	if (src.suicide_alert)
 		message_attack("[key_name(src)] died shortly after spawning.")
 		src.suicide_alert = 0
+
+
 	if(src.ckey)
 		respawn_controller.subscribeNewRespawnee(src.ckey)
 
