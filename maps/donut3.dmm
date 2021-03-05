@@ -12006,6 +12006,10 @@
 	name = "donut ladder";
 	pixel_y = 32
 	},
+/obj/item/basketball{
+	desc = "Something beautiful overwhelms you when you look at this ball.";
+	name = "barkley's basketball"
+	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/nw)
 "dlF" = (
