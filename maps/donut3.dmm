@@ -24046,6 +24046,10 @@
 	name = "Artifact Lab Pad"
 	},
 /obj/disposalpipe/segment,
+/obj/item/cargotele{
+	pixel_x = 5;
+	pixel_y = 8
+	},
 /turf/simulated/floor/plating/jen,
 /area/station/science/artifact)
 "gTo" = (
@@ -36725,6 +36729,10 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/data_terminal,
+/obj/machinery/recharger/wall/sticky{
+	dir = 4;
+	pixel_x = 23
+	},
 /turf/simulated/floor/specialroom/arcade,
 /area/station/science/artifact)
 "kSb" = (
