@@ -8690,6 +8690,10 @@
 	pixel_x = -9;
 	pixel_y = 7
 	},
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = 4;
+	pixel_y = 4
+	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/east)
 "clC" = (
@@ -28039,6 +28043,9 @@
 	},
 /obj/decal/cleanable/dirt/jen,
 /obj/decal/cleanable/rust/jen,
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = 7
+	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/ne)
 "idw" = (
@@ -31932,6 +31939,10 @@
 "jrK" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/decal/cleanable/rust/jen,
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = -4;
+	pixel_y = 3
+	},
 /obj/reagent_dispensers/beerkeg,
 /obj/machinery/light/small/sticky{
 	dir = 1
@@ -36973,6 +36984,9 @@
 	pixel_y = 2
 	},
 /obj/decal/cleanable/dirt/jen,
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = 8
+	},
 /turf/simulated/floor/black/grime,
 /area/station/maintenance/outer/sw)
 "kXZ" = (
@@ -59846,6 +59860,9 @@
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /obj/table/auto,
 /obj/decal/cleanable/dirt,
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = 9
+	},
 /turf/simulated/floor/specialroom/freezer,
 /area/station/maintenance/inner/sw)
 "rEc" = (
@@ -76908,6 +76925,13 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/asylum/medbay)
+"wIs" = (
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/outer/ne)
 "wIu" = (
 /obj/shrub{
 	dir = 8
@@ -82011,6 +82035,10 @@
 /obj/table/auto,
 /obj/machinery/light/small/sticky{
 	dir = 1
+	},
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = -1;
+	pixel_y = 1
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/north)
@@ -132566,7 +132594,7 @@ rdj
 rdj
 aUm
 aLW
-jba
+wIs
 jba
 jba
 kkV
