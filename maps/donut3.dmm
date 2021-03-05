@@ -2217,6 +2217,23 @@
 /obj/wingrille_spawn/auto/crystal,
 /turf/space,
 /area/space)
+"any" = (
+/obj/item/clothing/under/suit/dress{
+	desc = "A black dress. Very formal.";
+	name = "black dress"
+	},
+/obj/item/clothing/head/mime_beret,
+/obj/item/clothing/head/mime_bowler,
+/obj/item/clothing/under/misc/mime,
+/obj/item/clothing/under/misc/mime/alt,
+/obj/item/clothing/suit/suspenders,
+/obj/item/clothing/suit/scarf,
+/obj/storage/closet/dresser{
+	anchored = 1;
+	name = "costume dresser"
+	},
+/turf/simulated/floor/specialroom/chapel,
+/area/station/chapel/sanctuary)
 "anC" = (
 /obj/machinery/door/unpowered/wood/pyro{
 	dir = 8;
@@ -15896,11 +15913,6 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/north)
-"exg" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/item/rubber_hammer,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/east)
 "exp" = (
 /obj/decal/tile_edge/line/green{
 	dir = 1;
@@ -27537,6 +27549,17 @@
 	dir = 1
 	},
 /area/station/hallway/primary/west)
+"hUY" = (
+/obj/machinery/guardbot_dock,
+/obj/decal/mule/beacon/no_auto_dropoff_spawn,
+/obj/machinery/power/data_terminal,
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/bot/guardbot/ranger,
+/turf/simulated/floor/circuit/purple,
+/area/station/science/bot_storage)
 "hUZ" = (
 /obj/stool/bench/sauna{
 	dir = 4
@@ -34925,6 +34948,10 @@
 	},
 /turf/simulated/floor/black/grime,
 /area/station/medical/asylum/maintenance)
+"knI" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "knY" = (
 /obj/railing/orange{
 	dir = 4
@@ -53781,6 +53808,11 @@
 /obj/machinery/power/apc/autoname_east,
 /turf/simulated/floor/red/checker,
 /area/station/security/checkpoint/arrivals)
+"pVL" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "pVO" = (
 /obj/disposalpipe/segment/morgue{
 	name = "crematorium pipe"
@@ -60499,12 +60531,6 @@
 	},
 /turf/simulated/floor/industrial,
 /area/station/quartermaster/refinery)
-"rLZ" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/decal/cleanable/rust/jen,
-/obj/item/device/flyswatter,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/se)
 "rMc" = (
 /obj/decal/mule/dropoff,
 /obj/machinery/door/airlock/pyro/glass,
@@ -62018,6 +62044,12 @@
 	dir = 5
 	},
 /area/station/bridge/customs)
+"sjB" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/decal/cleanable/rust/jen,
+/obj/item/device/flyswatter,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/se)
 "sjI" = (
 /obj/disposalpipe/segment/morgue{
 	name = "kitchen freezer pipe"
@@ -70330,6 +70362,14 @@
 /obj/machinery/light/emergency,
 /turf/simulated/floor/wood/two,
 /area/station/hallway/primary/west)
+"uNl" = (
+/obj/machinery/phone/wall{
+	pixel_y = 30
+	},
+/turf/simulated/floor/bluewhite/corner{
+	dir = 8
+	},
+/area/station/crew_quarters/pool)
 "uNs" = (
 /obj/disposalpipe/segment/mail,
 /turf/simulated/floor,
@@ -75074,14 +75114,6 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/crew_quarters/arcade/dungeon)
-"whh" = (
-/obj/machinery/phone/wall{
-	pixel_y = 30
-	},
-/turf/simulated/floor/bluewhite/corner{
-	dir = 8
-	},
-/area/station/crew_quarters/pool)
 "whw" = (
 /obj/decal/tile_edge/line/blue{
 	dir = 6;
@@ -75395,10 +75427,6 @@
 	dir = 8
 	},
 /area/station/crew_quarters/market)
-"wlc" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "wlr" = (
 /obj/stool/bench/blue/auto,
 /turf/simulated/floor/red/side,
@@ -76792,23 +76820,6 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
-"wFx" = (
-/obj/item/clothing/under/suit/dress{
-	desc = "A black dress. Very formal.";
-	name = "black dress"
-	},
-/obj/item/clothing/head/mime_beret,
-/obj/item/clothing/head/mime_bowler,
-/obj/item/clothing/under/misc/mime,
-/obj/item/clothing/under/misc/mime/alt,
-/obj/item/clothing/suit/suspenders,
-/obj/item/clothing/suit/scarf,
-/obj/storage/closet/dresser{
-	anchored = 1;
-	name = "costume dresser"
-	},
-/turf/simulated/floor/specialroom/chapel,
-/area/station/chapel/sanctuary)
 "wFC" = (
 /obj/machinery/launcher_loader/west,
 /turf/simulated/floor/black/grime,
@@ -99688,7 +99699,7 @@ uyp
 jkx
 jkx
 jkx
-whh
+uNl
 uyp
 awz
 ilS
@@ -121225,7 +121236,7 @@ hdj
 tph
 bko
 tph
-wFx
+any
 lKj
 hdj
 mpU
@@ -122421,7 +122432,7 @@ euw
 dHo
 xYy
 oHX
-wlc
+knI
 raK
 wxG
 wrL
@@ -131255,7 +131266,7 @@ iwc
 qpK
 wBl
 vTJ
-exg
+pVL
 bpe
 ndN
 hTw
@@ -131278,7 +131289,7 @@ dws
 hvP
 rfG
 rfG
-rLZ
+sjB
 nsd
 dCa
 eOq
@@ -133707,7 +133718,7 @@ fOP
 fOP
 wiY
 dXn
-fOP
+hUY
 fOP
 fOP
 vzs
