@@ -15316,10 +15316,6 @@
 	},
 /turf/simulated/floor/white,
 /area/station/medical/asylum/main)
-"emb" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "emj" = (
 /obj/morgue{
 	dir = 8
@@ -17665,6 +17661,14 @@
 "eWZ" = (
 /obj/table/reinforced/bar/auto{
 	name = "table"
+	},
+/obj/item/matchbook{
+	pixel_x = -7;
+	pixel_y = 6
+	},
+/obj/item/matchbook{
+	pixel_x = 4;
+	pixel_y = 4
 	},
 /turf/simulated/floor/carpet{
 	dir = 10;
@@ -68738,6 +68742,10 @@
 	dir = 4
 	},
 /area/station/hallway/primary/east)
+"uqh" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "uqq" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/electrical{
@@ -122356,7 +122364,7 @@ euw
 dHo
 xYy
 oHX
-emb
+uqh
 raK
 wxG
 wrL
