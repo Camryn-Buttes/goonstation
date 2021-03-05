@@ -36521,6 +36521,21 @@
 "kOp" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/decal/cleanable/rust/jen,
+/obj/item/reagent_containers/food/snacks/ingredient/egg/critter/bat{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/clothing/mask/batman{
+	pixel_x = -5
+	},
+/obj/item/clothing/shoes/thong{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/item/staple_gun/red{
+	pixel_x = 8;
+	pixel_y = -2
+	},
 /obj/decal/poster/wallsign/fuck1{
 	pixel_y = 32
 	},
@@ -66487,6 +66502,10 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/south)
+"tEt" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "tEG" = (
 /obj/disposalpipe/segment{
 	dir = 1;
@@ -68742,10 +68761,6 @@
 	dir = 4
 	},
 /area/station/hallway/primary/east)
-"uqh" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "uqq" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/electrical{
@@ -122364,7 +122379,7 @@ euw
 dHo
 xYy
 oHX
-uqh
+tEt
 raK
 wxG
 wrL
