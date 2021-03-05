@@ -15316,6 +15316,10 @@
 	},
 /turf/simulated/floor/white,
 /area/station/medical/asylum/main)
+"emb" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "emj" = (
 /obj/morgue{
 	dir = 8
@@ -122352,7 +122356,7 @@ euw
 dHo
 xYy
 oHX
-wxG
+emb
 raK
 wxG
 wrL
