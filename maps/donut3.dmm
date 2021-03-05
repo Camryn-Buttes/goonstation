@@ -4489,6 +4489,13 @@
 /obj/storage/closet/emergency,
 /turf/simulated/floor/black,
 /area/station/medical/medbay)
+"aXX" = (
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/outer/ne)
 "aXY" = (
 /obj/decal/poster/wallsign/warning3{
 	desc = "'Unauthorized personnel who pass this point will be fired upon by AI-controlled turrets.'";
@@ -11402,7 +11409,14 @@
 "dcW" = (
 /obj/table/reinforced/auto,
 /obj/machinery/cashreg{
-	name = "Boxing ring credit transfer device"
+	name = "Boxing ring credit transfer device";
+	pixel_y = 10
+	},
+/obj/item/clothing/glasses/sunglasses/tanning{
+	pixel_y = 2
+	},
+/obj/item/clothing/glasses/sunglasses/tanning{
+	pixel_y = -2
 	},
 /turf/simulated/floor/wood,
 /area/station/crew_quarters/fitness)
@@ -71649,13 +71663,6 @@
 	},
 /turf/simulated/floor/wood/two,
 /area/station/hallway/primary/south)
-"vgZ" = (
-/obj/item/storage/pill_bottle/cyberpunk{
-	pixel_x = -8;
-	pixel_y = -7
-	},
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/outer/ne)
 "vhf" = (
 /obj/cable{
 	d1 = 2;
@@ -132595,7 +132602,7 @@ rdj
 rdj
 aUm
 aLW
-vgZ
+aXX
 jba
 jba
 kkV
