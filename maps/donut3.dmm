@@ -5248,10 +5248,6 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/plating/jen,
 /area/station/security/beepsky)
-"bmn" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "bms" = (
 /obj/table/auto,
 /obj/item/rubberduck{
@@ -8581,6 +8577,11 @@
 	},
 /turf/space,
 /area/space)
+"cjH" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "cjI" = (
 /turf/simulated/floor/carpet/grime,
 /area/listeningpost)
@@ -10340,12 +10341,6 @@
 	},
 /turf/simulated/floor/circuit/off,
 /area/station/turret_protected/ai_upload)
-"cMY" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/decal/cleanable/rust/jen,
-/obj/item/device/flyswatter,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/se)
 "cNh" = (
 /obj/cable{
 	d1 = 4;
@@ -27551,6 +27546,12 @@
 "hVw" = (
 /turf/simulated/floor/plating/airless,
 /area/space)
+"hVB" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/decal/cleanable/rust/jen,
+/obj/item/device/flyswatter,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/se)
 "hVD" = (
 /obj/cable{
 	d1 = 1;
@@ -32772,11 +32773,6 @@
 	dir = 6
 	},
 /area/station/engine/inner)
-"jFn" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/item/rubber_hammer,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/east)
 "jFs" = (
 /obj/machinery/light/incandescent/netural,
 /obj/disposalpipe/segment/food{
@@ -47618,6 +47614,23 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/carpet/grime,
 /area/station/crew_quarters/bar)
+"ogH" = (
+/obj/item/clothing/under/suit/dress{
+	desc = "A black dress. Very formal.";
+	name = "black dress"
+	},
+/obj/item/clothing/head/mime_beret,
+/obj/item/clothing/head/mime_bowler,
+/obj/item/clothing/under/misc/mime,
+/obj/item/clothing/under/misc/mime/alt,
+/obj/item/clothing/suit/suspenders,
+/obj/item/clothing/suit/scarf,
+/obj/storage/closet/dresser{
+	anchored = 1;
+	name = "costume dresser"
+	},
+/turf/simulated/floor/specialroom/chapel,
+/area/station/chapel/sanctuary)
 "ogJ" = (
 /obj/wingrille_spawn/auto/tuff,
 /turf/simulated/floor/plating,
@@ -57212,6 +57225,14 @@
 /obj/disposalpipe/junction/right/west,
 /turf/simulated/floor/specialroom/medbay,
 /area/station/medical/medbay/lobby)
+"qQk" = (
+/obj/machinery/phone/wall{
+	pixel_y = 30
+	},
+/turf/simulated/floor/bluewhite/corner{
+	dir = 8
+	},
+/area/station/crew_quarters/pool)
 "qQq" = (
 /turf/simulated/floor/escape{
 	dir = 4
@@ -67236,6 +67257,10 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/security/brig/south_side)
+"tPK" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "tPS" = (
 /obj/machinery/light/runway_light,
 /obj/lattice{
@@ -75229,14 +75254,6 @@
 /obj/disposalpipe/segment/mail,
 /turf/simulated/floor,
 /area/station/crew_quarters/garden)
-"wiM" = (
-/obj/machinery/phone/wall{
-	pixel_y = 30
-	},
-/turf/simulated/floor/bluewhite/corner{
-	dir = 8
-	},
-/area/station/crew_quarters/pool)
 "wiW" = (
 /obj/cable{
 	d1 = 2;
@@ -99671,7 +99688,7 @@ uyp
 jkx
 jkx
 jkx
-wiM
+qQk
 uyp
 awz
 ilS
@@ -121208,7 +121225,7 @@ hdj
 tph
 bko
 tph
-aaz
+ogH
 lKj
 hdj
 mpU
@@ -122404,7 +122421,7 @@ euw
 dHo
 xYy
 oHX
-bmn
+tPK
 raK
 wxG
 wrL
@@ -131238,7 +131255,7 @@ iwc
 qpK
 wBl
 vTJ
-jFn
+cjH
 bpe
 ndN
 hTw
@@ -131261,7 +131278,7 @@ dws
 hvP
 rfG
 rfG
-cMY
+hVB
 nsd
 dCa
 eOq
