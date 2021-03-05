@@ -20068,6 +20068,10 @@
 	dir = 10
 	},
 /area/station/medical/medbay)
+"fFq" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "fFw" = (
 /obj/decal/tile_edge/line/purple{
 	icon_state = "line1"
@@ -29211,6 +29215,11 @@
 /area/station/medical/research{
 	name = "Genetic Research"
 	})
+"ivN" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "ivU" = (
 /turf/simulated/wall/asteroid,
 /area/station/crew_quarters/pool)
@@ -66502,10 +66511,6 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/south)
-"tEt" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "tEG" = (
 /obj/disposalpipe/segment{
 	dir = 1;
@@ -122379,7 +122384,7 @@ euw
 dHo
 xYy
 oHX
-tEt
+fFq
 raK
 wxG
 wrL
@@ -131213,7 +131218,7 @@ iwc
 qpK
 wBl
 vTJ
-aeN
+ivN
 bpe
 ndN
 hTw
