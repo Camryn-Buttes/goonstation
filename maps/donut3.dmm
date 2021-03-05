@@ -8577,11 +8577,6 @@
 	},
 /turf/space,
 /area/space)
-"cjH" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/item/rubber_hammer,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/east)
 "cjI" = (
 /turf/simulated/floor/carpet/grime,
 /area/listeningpost)
@@ -15901,6 +15896,11 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/north)
+"exg" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "exp" = (
 /obj/decal/tile_edge/line/green{
 	dir = 1;
@@ -27546,12 +27546,6 @@
 "hVw" = (
 /turf/simulated/floor/plating/airless,
 /area/space)
-"hVB" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/decal/cleanable/rust/jen,
-/obj/item/device/flyswatter,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/se)
 "hVD" = (
 /obj/cable{
 	d1 = 1;
@@ -47614,23 +47608,6 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/carpet/grime,
 /area/station/crew_quarters/bar)
-"ogH" = (
-/obj/item/clothing/under/suit/dress{
-	desc = "A black dress. Very formal.";
-	name = "black dress"
-	},
-/obj/item/clothing/head/mime_beret,
-/obj/item/clothing/head/mime_bowler,
-/obj/item/clothing/under/misc/mime,
-/obj/item/clothing/under/misc/mime/alt,
-/obj/item/clothing/suit/suspenders,
-/obj/item/clothing/suit/scarf,
-/obj/storage/closet/dresser{
-	anchored = 1;
-	name = "costume dresser"
-	},
-/turf/simulated/floor/specialroom/chapel,
-/area/station/chapel/sanctuary)
 "ogJ" = (
 /obj/wingrille_spawn/auto/tuff,
 /turf/simulated/floor/plating,
@@ -57225,14 +57202,6 @@
 /obj/disposalpipe/junction/right/west,
 /turf/simulated/floor/specialroom/medbay,
 /area/station/medical/medbay/lobby)
-"qQk" = (
-/obj/machinery/phone/wall{
-	pixel_y = 30
-	},
-/turf/simulated/floor/bluewhite/corner{
-	dir = 8
-	},
-/area/station/crew_quarters/pool)
 "qQq" = (
 /turf/simulated/floor/escape{
 	dir = 4
@@ -60530,6 +60499,12 @@
 	},
 /turf/simulated/floor/industrial,
 /area/station/quartermaster/refinery)
+"rLZ" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/decal/cleanable/rust/jen,
+/obj/item/device/flyswatter,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/se)
 "rMc" = (
 /obj/decal/mule/dropoff,
 /obj/machinery/door/airlock/pyro/glass,
@@ -67257,10 +67232,6 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/security/brig/south_side)
-"tPK" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "tPS" = (
 /obj/machinery/light/runway_light,
 /obj/lattice{
@@ -75103,6 +75074,14 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/crew_quarters/arcade/dungeon)
+"whh" = (
+/obj/machinery/phone/wall{
+	pixel_y = 30
+	},
+/turf/simulated/floor/bluewhite/corner{
+	dir = 8
+	},
+/area/station/crew_quarters/pool)
 "whw" = (
 /obj/decal/tile_edge/line/blue{
 	dir = 6;
@@ -75416,6 +75395,10 @@
 	dir = 8
 	},
 /area/station/crew_quarters/market)
+"wlc" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "wlr" = (
 /obj/stool/bench/blue/auto,
 /turf/simulated/floor/red/side,
@@ -76809,6 +76792,23 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/storage/tech)
+"wFx" = (
+/obj/item/clothing/under/suit/dress{
+	desc = "A black dress. Very formal.";
+	name = "black dress"
+	},
+/obj/item/clothing/head/mime_beret,
+/obj/item/clothing/head/mime_bowler,
+/obj/item/clothing/under/misc/mime,
+/obj/item/clothing/under/misc/mime/alt,
+/obj/item/clothing/suit/suspenders,
+/obj/item/clothing/suit/scarf,
+/obj/storage/closet/dresser{
+	anchored = 1;
+	name = "costume dresser"
+	},
+/turf/simulated/floor/specialroom/chapel,
+/area/station/chapel/sanctuary)
 "wFC" = (
 /obj/machinery/launcher_loader/west,
 /turf/simulated/floor/black/grime,
@@ -99688,7 +99688,7 @@ uyp
 jkx
 jkx
 jkx
-qQk
+whh
 uyp
 awz
 ilS
@@ -121225,7 +121225,7 @@ hdj
 tph
 bko
 tph
-ogH
+wFx
 lKj
 hdj
 mpU
@@ -122421,7 +122421,7 @@ euw
 dHo
 xYy
 oHX
-tPK
+wlc
 raK
 wxG
 wrL
@@ -131255,7 +131255,7 @@ iwc
 qpK
 wBl
 vTJ
-cjH
+exg
 bpe
 ndN
 hTw
@@ -131278,7 +131278,7 @@ dws
 hvP
 rfG
 rfG
-hVB
+rLZ
 nsd
 dCa
 eOq
