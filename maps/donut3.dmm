@@ -22700,6 +22700,28 @@
 	dir = 5
 	},
 /area/station/chapel/sanctuary)
+"gwZ" = (
+/obj/storage/closet/dresser,
+/obj/item/clothing/under/jersey,
+/obj/item/clothing/under/jersey,
+/obj/item/clothing/under/jersey,
+/obj/item/clothing/under/jersey/black,
+/obj/item/clothing/under/jersey/black,
+/obj/item/clothing/under/jersey/black,
+/obj/item/clothing/under/jersey/blue,
+/obj/item/clothing/under/jersey/blue,
+/obj/item/clothing/under/jersey/blue,
+/obj/item/clothing/under/jersey/green,
+/obj/item/clothing/under/jersey/green,
+/obj/item/clothing/under/jersey/green,
+/obj/item/clothing/under/jersey/purple,
+/obj/item/clothing/under/jersey/purple,
+/obj/item/clothing/under/jersey/purple,
+/obj/item/clothing/under/jersey/red,
+/obj/item/clothing/under/jersey/red,
+/obj/item/clothing/under/jersey/red,
+/turf/simulated/floor/wood,
+/area/station/crew_quarters/fitness)
 "gxi" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/carpet/arcade,
@@ -124121,7 +124143,7 @@ jKb
 xFf
 nUM
 kPy
-pwN
+gwZ
 iJM
 eFg
 ine
