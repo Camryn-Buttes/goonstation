@@ -11385,10 +11385,6 @@
 	},
 /turf/simulated/floor/blue,
 /area/station/medical/medbay/treatment)
-"dcx" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "dcz" = (
 /obj/cable{
 	d1 = 1;
@@ -11796,6 +11792,12 @@
 	},
 /turf/simulated/floor/industrial,
 /area/station/quartermaster/refinery)
+"dia" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/decal/cleanable/rust/jen,
+/obj/item/device/flyswatter,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/se)
 "dib" = (
 /obj/wingrille_spawn/auto/tuff,
 /obj/window_blinds/cog2/left,
@@ -13780,17 +13782,6 @@
 	},
 /turf/simulated/floor/specialroom/clown,
 /area/station/crew_quarters/clown)
-"dON" = (
-/obj/machinery/guardbot_dock,
-/obj/decal/mule/beacon/no_auto_dropoff_spawn,
-/obj/machinery/power/data_terminal,
-/obj/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/bot/guardbot/ranger,
-/turf/simulated/floor/circuit/purple,
-/area/station/science/bot_storage)
 "dPb" = (
 /obj/machinery/light/incandescent/warm{
 	dir = 1
@@ -15019,6 +15010,17 @@
 	dir = 6
 	},
 /area/station/bridge/customs)
+"egc" = (
+/obj/machinery/guardbot_dock,
+/obj/decal/mule/beacon/no_auto_dropoff_spawn,
+/obj/machinery/power/data_terminal,
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/bot/guardbot/ranger,
+/turf/simulated/floor/circuit/purple,
+/area/station/science/bot_storage)
 "egd" = (
 /obj/machinery/camera{
 	dir = 5
@@ -22798,12 +22800,6 @@
 	dir = 4
 	},
 /area/station/hallway/primary/west)
-"gxW" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/decal/cleanable/rust/jen,
-/obj/item/device/flyswatter,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/se)
 "gxX" = (
 /obj/decal/tile_edge/line/purple{
 	dir = 10;
@@ -38817,6 +38813,10 @@
 	},
 /turf/simulated/floor/green/side,
 /area/station/hallway/primary/west)
+"lyO" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "lyU" = (
 /obj/rack,
 /obj/random_item_spawner/tools/maybe_few,
@@ -39680,23 +39680,6 @@
 /turf/simulated/floor/specialroom/chapel{
 	dir = 4
 	},
-/area/station/chapel/sanctuary)
-"lKn" = (
-/obj/item/clothing/under/suit/dress{
-	desc = "A black dress. Very formal.";
-	name = "black dress"
-	},
-/obj/item/clothing/head/mime_beret,
-/obj/item/clothing/head/mime_bowler,
-/obj/item/clothing/under/misc/mime,
-/obj/item/clothing/under/misc/mime/alt,
-/obj/item/clothing/suit/suspenders,
-/obj/item/clothing/suit/scarf,
-/obj/storage/closet/dresser{
-	anchored = 1;
-	name = "costume dresser"
-	},
-/turf/simulated/floor/specialroom/chapel,
 /area/station/chapel/sanctuary)
 "lKp" = (
 /obj/machinery/camera{
@@ -46420,6 +46403,23 @@
 /obj/decal/cleanable/dirt/jen,
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/sw)
+"nNR" = (
+/obj/item/clothing/under/suit/dress{
+	desc = "A black dress. Very formal.";
+	name = "black dress"
+	},
+/obj/item/clothing/head/mime_beret,
+/obj/item/clothing/head/mime_bowler,
+/obj/item/clothing/under/misc/mime,
+/obj/item/clothing/under/misc/mime/alt,
+/obj/item/clothing/suit/suspenders,
+/obj/item/clothing/suit/scarf,
+/obj/storage/closet/dresser{
+	anchored = 1;
+	name = "costume dresser"
+	},
+/turf/simulated/floor/specialroom/chapel,
+/area/station/chapel/sanctuary)
 "nNW" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/toolbox/mechanical{
@@ -47942,6 +47942,10 @@
 /area/station/maintenance/inner/se)
 "olz" = (
 /obj/table/wood/round/auto,
+/obj/item/storage/box/trackimp_kit2{
+	pixel_x = -5;
+	pixel_y = 1
+	},
 /obj/item/device/radio/intercom/security{
 	pixel_x = 1
 	},
@@ -54047,6 +54051,14 @@
 /obj/decal/cleanable/dirt/jen,
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/outer/se)
+"pZb" = (
+/obj/machinery/phone/wall{
+	pixel_y = 30
+	},
+/turf/simulated/floor/bluewhite/corner{
+	dir = 8
+	},
+/area/station/crew_quarters/pool)
 "pZc" = (
 /obj/cable{
 	d1 = 1;
@@ -55617,11 +55629,6 @@
 /obj/disposalpipe/segment/mail,
 /turf/simulated/wall/auto/jen,
 /area/station/hallway/primary/west)
-"qrZ" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/item/rubber_hammer,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/east)
 "qsj" = (
 /obj/machinery/sim/vr_bed{
 	dir = 8;
@@ -57710,14 +57717,6 @@
 	icon_state = "blue2"
 	},
 /area/station/crew_quarters/quartersB)
-"qXv" = (
-/obj/machinery/phone/wall{
-	pixel_y = 30
-	},
-/turf/simulated/floor/bluewhite/corner{
-	dir = 8
-	},
-/area/station/crew_quarters/pool)
 "qXC" = (
 /obj/machinery/recharge_station,
 /obj/decal/mule/dropoff,
@@ -67595,6 +67594,11 @@
 /obj/iv_stand,
 /turf/simulated/floor/greenwhite,
 /area/station/medical/cdc)
+"tUn" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "tUy" = (
 /obj/railing/orange{
 	dir = 4
@@ -99707,7 +99711,7 @@ uyp
 jkx
 jkx
 jkx
-qXv
+pZb
 uyp
 awz
 ilS
@@ -121244,7 +121248,7 @@ hdj
 tph
 bko
 tph
-lKn
+nNR
 lKj
 hdj
 mpU
@@ -122440,7 +122444,7 @@ euw
 dHo
 xYy
 oHX
-dcx
+lyO
 raK
 wxG
 wrL
@@ -131274,7 +131278,7 @@ iwc
 qpK
 wBl
 vTJ
-qrZ
+tUn
 bpe
 ndN
 hTw
@@ -131297,7 +131301,7 @@ dws
 hvP
 rfG
 rfG
-gxW
+dia
 nsd
 dCa
 eOq
@@ -133726,7 +133730,7 @@ fOP
 fOP
 wiY
 dXn
-dON
+egc
 fOP
 fOP
 vzs
