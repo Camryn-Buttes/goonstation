@@ -34329,6 +34329,11 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/north)
+"keS" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "kfp" = (
 /obj/table/reinforced/auto,
 /obj/item/chem_grenade/firefighting{
@@ -43751,6 +43756,10 @@
 	dir = 1
 	},
 /area/station/chapel/sanctuary)
+"mXl" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "mXv" = (
 /obj/disposalpipe/segment/morgue{
 	dir = 2;
@@ -63879,6 +63888,14 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/hallway/secondary/exit)
+"sPr" = (
+/obj/machinery/phone/wall{
+	pixel_y = 30
+	},
+/turf/simulated/floor/bluewhite/corner{
+	dir = 8
+	},
+/area/station/crew_quarters/pool)
 "sPs" = (
 /obj/machinery/light/small/floor/warm,
 /turf/simulated/floor/black,
@@ -64202,6 +64219,12 @@
 	dir = 9
 	},
 /area/station/science/lobby)
+"sVg" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/decal/cleanable/rust/jen,
+/obj/item/device/flyswatter,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/se)
 "sVh" = (
 /obj/rack,
 /obj/item/tank/air,
@@ -64366,11 +64389,6 @@
 	dir = 10
 	},
 /area/station/hallway/primary/west)
-"sXA" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/item/rubber_hammer,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/east)
 "sXF" = (
 /obj/cable{
 	d1 = 4;
@@ -65523,10 +65541,6 @@
 /obj/disposalpipe/junction/left/west,
 /turf/simulated/floor/black,
 /area/station/engine/engineering/breakroom)
-"tqB" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "tqE" = (
 /obj/item/device/radio/intercom{
 	dir = 4
@@ -65897,6 +65911,7 @@
 "tvC" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/decal/cleanable/rust/jen,
+/obj/item/clothing/mask/moustache/safe,
 /turf/simulated/floor/plating/jen,
 /area/station/science/lobby)
 "tvD" = (
@@ -66799,14 +66814,6 @@
 /obj/wingrille_spawn/auto/tuff,
 /turf/simulated/floor/plating,
 /area/shuttle/asylum/medbay)
-"tJe" = (
-/obj/machinery/phone/wall{
-	pixel_y = 30
-	},
-/turf/simulated/floor/bluewhite/corner{
-	dir = 8
-	},
-/area/station/crew_quarters/pool)
 "tJf" = (
 /obj/table/glass/auto,
 /obj/random_item_spawner/desk_stuff/one_or_zero,
@@ -99660,7 +99667,7 @@ uyp
 jkx
 jkx
 jkx
-tJe
+sPr
 uyp
 awz
 ilS
@@ -122393,7 +122400,7 @@ euw
 dHo
 xYy
 oHX
-tqB
+mXl
 raK
 wxG
 wrL
@@ -131227,7 +131234,7 @@ iwc
 qpK
 wBl
 vTJ
-sXA
+keS
 bpe
 ndN
 hTw
@@ -131250,7 +131257,7 @@ dws
 hvP
 rfG
 rfG
-xfq
+sVg
 nsd
 dCa
 eOq
