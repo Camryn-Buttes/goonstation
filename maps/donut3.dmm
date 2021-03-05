@@ -20068,10 +20068,6 @@
 	dir = 10
 	},
 /area/station/medical/medbay)
-"fFq" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "fFw" = (
 /obj/decal/tile_edge/line/purple{
 	icon_state = "line1"
@@ -27443,6 +27439,10 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/nw)
+"hTM" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "hTR" = (
 /obj/cable{
 	d1 = 2;
@@ -29215,11 +29215,6 @@
 /area/station/medical/research{
 	name = "Genetic Research"
 	})
-"ivN" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/item/rubber_hammer,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/east)
 "ivU" = (
 /turf/simulated/wall/asteroid,
 /area/station/crew_quarters/pool)
@@ -68090,6 +68085,11 @@
 	},
 /turf/simulated/floor/specialroom/cafeteria,
 /area/station/crew_quarters/kitchen)
+"udI" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "udO" = (
 /turf/simulated/floor/bluewhite{
 	dir = 5
@@ -73576,6 +73576,7 @@
 /area/station/crew_quarters/courtroom)
 "vIK" = (
 /obj/storage/secure/closet/security/forensics,
+/obj/item/camera_test,
 /turf/simulated/floor/wood/seven,
 /area/station/security/detectives_office)
 "vIN" = (
@@ -122384,7 +122385,7 @@ euw
 dHo
 xYy
 oHX
-fFq
+hTM
 raK
 wxG
 wrL
@@ -131218,7 +131219,7 @@ iwc
 qpK
 wBl
 vTJ
-ivN
+udI
 bpe
 ndN
 hTw
