@@ -21233,7 +21233,8 @@
 /obj/table/reinforced/auto,
 /obj/machinery/phone,
 /obj/item/clothing/head/helmet/camera/security{
-	pixel_x = 14
+	pixel_x = -7;
+	pixel_y = -5
 	},
 /turf/simulated/floor/red,
 /area/station/security/main)
@@ -71648,6 +71649,13 @@
 	},
 /turf/simulated/floor/wood/two,
 /area/station/hallway/primary/south)
+"vgZ" = (
+/obj/item/storage/pill_bottle/cyberpunk{
+	pixel_x = -8;
+	pixel_y = -7
+	},
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/outer/ne)
 "vhf" = (
 /obj/cable{
 	d1 = 2;
@@ -76925,13 +76933,6 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/asylum/medbay)
-"wIs" = (
-/obj/item/storage/pill_bottle/cyberpunk{
-	pixel_x = -8;
-	pixel_y = -7
-	},
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/outer/ne)
 "wIu" = (
 /obj/shrub{
 	dir = 8
@@ -132594,7 +132595,7 @@ rdj
 rdj
 aUm
 aLW
-wIs
+vgZ
 jba
 jba
 kkV
