@@ -5248,6 +5248,10 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/plating/jen,
 /area/station/security/beepsky)
+"bmn" = (
+/obj/item/clothing/under/jersey/random,
+/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
+/area/station/maintenance/outer/north)
 "bms" = (
 /obj/table/auto,
 /obj/item/rubberduck{
@@ -10336,6 +10340,12 @@
 	},
 /turf/simulated/floor/circuit/off,
 /area/station/turret_protected/ai_upload)
+"cMY" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/decal/cleanable/rust/jen,
+/obj/item/device/flyswatter,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/se)
 "cNh" = (
 /obj/cable{
 	d1 = 4;
@@ -32762,6 +32772,11 @@
 	dir = 6
 	},
 /area/station/engine/inner)
+"jFn" = (
+/obj/decal/cleanable/dirt/jen,
+/obj/item/rubber_hammer,
+/turf/simulated/floor/plating/jen,
+/area/station/maintenance/inner/east)
 "jFs" = (
 /obj/machinery/light/incandescent/netural,
 /obj/disposalpipe/segment/food{
@@ -34329,11 +34344,6 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/north)
-"keS" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/item/rubber_hammer,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/east)
 "kfp" = (
 /obj/table/reinforced/auto,
 /obj/item/chem_grenade/firefighting{
@@ -43756,10 +43766,6 @@
 	dir = 1
 	},
 /area/station/chapel/sanctuary)
-"mXl" = (
-/obj/item/clothing/under/jersey/random,
-/turf/simulated/floor/carpet/red/fancy/innercorner/omni,
-/area/station/maintenance/outer/north)
 "mXv" = (
 /obj/disposalpipe/segment/morgue{
 	dir = 2;
@@ -47974,6 +47980,10 @@
 	},
 /obj/item/paper/book/dwainedummies{
 	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/peripheral/prize_vendor{
+	pixel_x = 1;
 	pixel_y = 7
 	},
 /obj/item/toy/gooncode{
@@ -63888,14 +63898,6 @@
 	},
 /turf/simulated/floor/plating/jen,
 /area/station/hallway/secondary/exit)
-"sPr" = (
-/obj/machinery/phone/wall{
-	pixel_y = 30
-	},
-/turf/simulated/floor/bluewhite/corner{
-	dir = 8
-	},
-/area/station/crew_quarters/pool)
 "sPs" = (
 /obj/machinery/light/small/floor/warm,
 /turf/simulated/floor/black,
@@ -64219,12 +64221,6 @@
 	dir = 9
 	},
 /area/station/science/lobby)
-"sVg" = (
-/obj/decal/cleanable/dirt/jen,
-/obj/decal/cleanable/rust/jen,
-/obj/item/device/flyswatter,
-/turf/simulated/floor/plating/jen,
-/area/station/maintenance/inner/se)
 "sVh" = (
 /obj/rack,
 /obj/item/tank/air,
@@ -75233,6 +75229,14 @@
 /obj/disposalpipe/segment/mail,
 /turf/simulated/floor,
 /area/station/crew_quarters/garden)
+"wiM" = (
+/obj/machinery/phone/wall{
+	pixel_y = 30
+	},
+/turf/simulated/floor/bluewhite/corner{
+	dir = 8
+	},
+/area/station/crew_quarters/pool)
 "wiW" = (
 /obj/cable{
 	d1 = 2;
@@ -99667,7 +99671,7 @@ uyp
 jkx
 jkx
 jkx
-sPr
+wiM
 uyp
 awz
 ilS
@@ -122400,7 +122404,7 @@ euw
 dHo
 xYy
 oHX
-mXl
+bmn
 raK
 wxG
 wrL
@@ -131234,7 +131238,7 @@ iwc
 qpK
 wBl
 vTJ
-keS
+jFn
 bpe
 ndN
 hTw
@@ -131257,7 +131261,7 @@ dws
 hvP
 rfG
 rfG
-sVg
+cMY
 nsd
 dCa
 eOq
